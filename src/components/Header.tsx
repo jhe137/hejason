@@ -19,5 +19,5 @@ export default async function Header(){
 
     ))}    
     </ul>
-    </nav>;
+    </nav>
 </header>)}
