@@ -11,7 +11,7 @@ export default async function Footer(){
         <Bounded as="footer">
             <div className="flex sm:flex-row flex-col justify-between items-center  gap-6">
             <Link href="/">{settings.data.site_title}</Link>
-        <p className="text-xs">
+        <p className="text-sm">
             ©{new Date().getFullYear()} {settings.data.site_title}
         </p>
         <ul className="flex">
