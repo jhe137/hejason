@@ -48,8 +48,8 @@ const Features = ({ slice }: FeaturesProps): JSX.Element => {
      <div className="grid sm:grid-cols-2 lg:grid-cols-4 max-w-5xl gap-x-8 gap-y-12 mx-auo sm:place-items-start place-items-center">
       {slice.items.map((item,index)=>(
         <div key={index} className="max-w-xs grid sm:place-items-start place-items-center">
-          {item.icon &&<div className="mb-5">
-          <>{icons[item.icon]}</></div>}
+          {/* {item.icon &&<div className="mb-5">
+          <>{icons[item.icon]}</></div>} */}
           <PrismicRichText components={components} field={item.title} />
           <PrismicRichText components={components} field={item.description} />
           
