@@ -26,9 +26,9 @@ const components: JSXMapSerializer={
 };
 
 const icons={
-  atom: <IconReact className="text-red-700" width='80px' height='80px'/>,
-  megaphone: <IconMegaphone className="text-red-700" width='80px' height='80px'/>,
-  clover: <IconClover className="text-red-700" width='80px' height='80px'/>,
+  atom: <IconReact  width='80px' height='80px'/>,
+  megaphone: <IconMegaphone  width='80px' height='80px'/>,
+  clover: <IconClover  width='80px' height='80px'/>,
 }
 /**
  * Props for `Features`.
