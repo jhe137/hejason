@@ -9,7 +9,7 @@ import * as prismic from "@prismicio/client";
 import { createClient } from "@/prismicio";
 import { components } from "@/slices";
 import { PrismicNextImage } from "@prismicio/next";
-import { PostCard } from "@/components/PostCard";
+import { PostCard } from "@/components/Postcard";
 
 
 type Params = { uid: string };
