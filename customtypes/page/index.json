@@ -17,6 +17,9 @@
         "fieldset": "Slice Zone",
         "config": {
           "choices": {
+            "postcard": {
+              "type": "SharedSlice"
+            },
             "hero": {
               "type": "SharedSlice"
             },
